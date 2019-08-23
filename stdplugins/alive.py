@@ -12,7 +12,7 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = ""
-    help_string = """```Your UserBot is running.```
+    help_string = """Your bot is running.
 ```Python {}```
 ```Telethon {}```
 
