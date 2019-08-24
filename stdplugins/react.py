@@ -11,11 +11,7 @@ async def _(event):
     if event.fwd_from:
         return
     input_str = event.pattern_match.group(1)
-    if input_str in "dat":
-        emoticons = [
-            "ツ",
-        ]
-    elif input_str in "happy":
+    if input_str in "happy":
         emoticons = [
             "( ͡° ͜ʖ ͡°)",
             "(ʘ‿ʘ)",
@@ -93,6 +89,10 @@ async def _(event):
         emoticons = [
             "-ᄒᴥᄒ-",
             "◖⚆ᴥ⚆◗",
+        ]
+    elif input_str in "dat":
+        emoticons = [
+            "ツ",
         ]
     else:    
         emoticons = [
