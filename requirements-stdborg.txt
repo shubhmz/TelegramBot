@@ -30,4 +30,3 @@ google-api-python-client
 oauth2client
 httplib2
 pip3 install coffehouse
-pip3 install pymongo
