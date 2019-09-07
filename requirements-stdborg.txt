@@ -16,7 +16,6 @@ psycopg2
 pySmartDL
 python-barcode
 python-magic
-pymongo
 qrcode
 regex
 requests
