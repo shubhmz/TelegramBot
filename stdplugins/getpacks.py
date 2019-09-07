@@ -32,8 +32,7 @@ Your animated sticker pack can be found [here](https://t.me/addstickers/Uni_Borg
         )
         await event.delete()
     else:
-        await event.reply(help_string + "\n\n" + s_help_string)
-        await event.delete()
+        await event.edit(help_string + "\n\n" + s_help_string)
 
 
 @borg.on(admin_cmd(pattern="dc"))  # pylint:disable=E0602
