@@ -3,6 +3,7 @@ aiohttp
 aria2p
 beautifulsoup4
 cfscrape
+coffehouse
 cryptg
 emoji
 googletrans
@@ -15,6 +16,7 @@ psycopg2
 pySmartDL
 python-barcode
 python-magic
+pymongo
 qrcode
 regex
 requests
