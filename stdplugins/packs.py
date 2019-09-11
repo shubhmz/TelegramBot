@@ -12,7 +12,7 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = ""
-    help_string = """Your 1st sticker pack can be found [here](https://t.me/addstickers/USERBOT_PackS_487188507)
+    help_string = """Your sticker pack can be found [here](https://t.me/addstickers/USERBOT_PackS_487188507)
 Your animated sticker pack can be found [here](https://t.me/addstickers/USER_BOT_PackS_487188507_as)
 """.format(
         sys.version,
