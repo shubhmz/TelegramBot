@@ -13,7 +13,8 @@ async def _(event):
     else:
         s_help_string = ""
     help_string = """Your 1st sticker pack can be found [here](https://t.me/addstickers/USERBOT_PackS_487188507)
-Your animated sticker pack can be found [here](https://t.me/addstickers/USER_BOT_PackS_487188507_as)""".format(
+Your animated sticker pack can be found [here](https://t.me/addstickers/USER_BOT_PackS_487188507_as)
+""".format(
         sys.version,
         __version__
     )
