@@ -28,5 +28,45 @@ async def _(event):
 ............\..............( 
 ..............\.............\...
     """)
+    elif input_str == "yee":
+        await event.edit("""
+ツ
+""")
+    elif input_str == "happy":
+        await event.edit("""
+(ʘ‿ʘ)
+""")
+    elif input_str == "happy2":
+        await event.edit("""
+=͟͟͞͞٩(๑☉ᴗ☉)੭ु⁾⁾
+""")
+    elif input_str == "happy3":
+        await event.edit("""
+ヾ(o✪‿✪o)ｼ
+""")
+    elif input_str == "crying":
+        await event.edit("""
+༎ຶ‿༎ຶ
+""")
+    elif input_str == "dicc":
+        await event.edit("""
+╰U╯☜(◉ɷ◉ )
+""")
+    elif input_str == "fek":
+        await event.edit("""
+╰U╯\n\n(‿ˠ‿)
+""")
+    elif input_str == "ded":
+        await event.edit("""
+✖‿✖
+""")
+    elif input_str == "sad":
+        await event.edit("""
+⊙︿⊙
+""")
+    elif input_str == "lenny":
+        await event.edit("""
+( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)
+""")
     else:
         await event.edit("variable not defined.")
